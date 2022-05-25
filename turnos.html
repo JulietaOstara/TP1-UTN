@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización de Turnos</title>
+       <link rel="stylesheet" href="turnos.css">
+       <link rel="shortcut icon" href="loto.jpg">
+
+</head>
+<body>
+    <div class="cabecera">
+        <a href="index.html">
+            <img src="imagenes/logo.jpeg" alt="Ir al inicio">
+        </a>
+        <h1 class="cabecera-titulo">The Beauty Empire</h1>
+    </div><!-- Acá cierra .cabecera -->
+
+    
+		<div class="contenido">
+
+            
+			
+			<nav class="nav">
+                <ul class="nav-lista">
+
+                    
+                   
+					<li class="nav-lista_item">
+						<a href="empresa.html" class="nav-lista_item-link">
+							Empresa
+						</a>
+					</li>
+					<li class="nav-lista_item">
+						<a href="productos.html" class="nav-lista_item-link">
+							Productos
+						</a>
+					</li>
+									<li class="nav-lista_item">
+						<a href="tratamientos.html" class="nav-lista_item-link">
+							Tratamientos
+						</a>
+					</li>
+					<li class="nav-lista_item">
+						<a href="contacto.html" class="nav-lista_item-link">
+							Contacto
+						</a>
+					</li>
+					<li class="nav-lista_item">
+						<a href="turnos.html" class="nav-lista_item-link">
+							
+						   Turnos
+								
+						</a>
+					</li>  
+
+                    <li class="nav-lista_item">
+                        <a href="index.html" class="nav-lista_item-link">
+                            Home
+                        </a>
+                    </li> 
+
+
+				</ul><!-- Acá cierra .nav-lista -->
+				</nav><!-- Acá cierra .nav -->
+
+		</div><!-- Acá cierra .contenido -->
+
+        <div class="formulario">
+    
+    <h1>Turnos</h1>
+
+    <form action="enviar.js">
+        <label>
+            Nombre:
+            <input type="text" maxlength="30" required>
+        </label> <br>
+        
+        <br><br>
+<label>
+
+    Email:
+    <input type="email">
+
+</label><br>
+
+
+<br><br>
+
+<label>
+
+    Contraseña: 
+    
+    <input type="password">
+
+</label><br>
+
+
+<br><br>
+
+<label>
+
+    Fecha:
+    <input type="date">
+</label><br>
+<br>
+
+Seleccione horario
+ <br>
+
+<label>
+
+    Hora:
+    <input type="time">
+</label><br>
+
+<br><br>
+
+<label>
+    Sede:
+<input type="text" list="Esteticas">
+</label>
+<datalist id="Esteticas">
+    <option>Recoleta</option>
+    <option>Caballito</option>
+    <option>Ezeiza</option>
+    <option>Tigre</option>
+</datalist>
+
+
+<br><br>
+
+<label>
+    Tratamiento:    
+<input type="text" list="Tratamiento">
+</label>
+<datalist id="Tratamiento">
+    <option>Depilacion</option>
+    <option>Corporal</option>
+    <option>Facial</option>        
+</datalist>
+<br><br>
+
+
+</div> <!-- Acá cierra .formulario -->
+
+<br><br>
+
+
+        <input type="submit" value="Envio de formulario">
+        <input type="reset" value="Reseteo de formulario">
+
+    </form><!-- Acá cierra .form -->
+
+</body>
+</html>

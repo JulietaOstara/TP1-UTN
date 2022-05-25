@@ -1,0 +1,171 @@
+
+:root {
+   
+    --blanco: #fff;
+}
+
+
+
+body {
+    
+    background-image: url("imagenes/loto.jpg");
+    background-color: pink;
+    font-family: arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+.cabecera {
+
+    background-color:var(--blanco);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+
+        
+  }
+  
+.cabecera-titulo {
+    color: pink;
+    font-family: 'Colonna MT', Courier, monospace;
+    padding: 40px;
+
+}
+
+ /*
+    ------------ CONTENIDO ------------
+*/
+
+.contenido{
+    background-color: var(--blanco);
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+/*
+    ------------ NAVEGACIÓN ------------
+*/
+
+.nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.nav-lista {
+    
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista_item-link {
+   
+   border-right: 1px solid purple;
+   display: block;
+   padding: 5px 12px;
+   text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+.nav-lista_item-link:hover {
+    background-color: rgba(199, 21, 134, 0.288);
+    text-decoration: underline;
+}
+
+/*---------tratamientos-----*/
+
+
+img {
+    width: 100%;
+    display: block;
+    
+     
+}
+.container{
+    background-color: rgba(199, 21, 134, 0.288);
+    text-decoration: underline;  
+    color:rgb(77, 4, 77);
+    box-sizing: border-box;
+    margin: 0;
+    
+   
+}
+
+.tratamientos{
+    background-color: pink;
+    color:purple;
+    font-family: 'curriel', Courier, monospace;
+    margin-left: 100px; 
+    margin-bottom: 80px; 
+       
+}
+
+.produccion{
+   
+    width: 600px;
+    height: 800px;   
+    margin-left: 150px; 
+    justify-content: space-between;
+    display: block;
+    
+        
+}
+
+#conte{
+    padding-top: 200px;
+    text-align: center;
+    }
+
+.btn{
+border-radius: 3px;
+padding: 20px 15px;
+display: inline-block;
+   text-decoration: palevioletred; 
+   text-shadow: 0 1px 0 #12010ccb,0.3;
+   box-shadow: 0 1px 0 purple;
+
+}
+
+.btn-primary{
+    color: blueviolet;
+    background-color: peachpuff;
+    margin-bottom: 20px; 
+
+}
+
+.btn-primary:hover{
+    background-color: rgba(188, 52, 75, 0.529);
+}
+
+.btn-primary:active{
+    
+    background-color: rgba(59, 3, 23, 0.778);
+
+}
+
+.row{
+    width: 100%;
+   justify-content: space-between;
+}
+
+.card{
+    width: 60%;
+    display: inline-block;  
+   
+   
+
+}
+
+
+

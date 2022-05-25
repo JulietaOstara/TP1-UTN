@@ -1,0 +1,106 @@
+
+
+
+body {
+    
+    background-image: url("imagenes/loto.jpg");
+    background-color: pink;
+      font-family: arial, Helvetica, sans-serif;
+      max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+.cabecera {
+
+    background-color:white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+        
+  }
+
+  
+.contenido{
+    background-color:white;
+}
+  
+.cabecera-titulo {
+    color: pink;
+    font-family: 'Colonna MT', Courier, monospace;
+    padding: 40px;
+
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.especial {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom right;
+    
+
+}
+
+
+.Nosotros-titulo{
+
+    background-color: pink;
+    color: purple;
+    font-family: 'curriel', Courier, monospace;
+    
+ }
+
+.nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.nav-lista {
+    
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista_item-link {
+   
+   border-right: 1px solid purple;
+   display: block;
+   padding: 5px 12px;
+   text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+.nav-lista_item-link:hover {
+    background-color: rgba(199, 21, 134, 0.288);
+    text-decoration: underline;
+}
+
+ 
+.slider {
+      
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+
+   
+    
+
+

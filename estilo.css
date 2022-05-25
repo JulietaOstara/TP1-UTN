@@ -1,0 +1,172 @@
+
+
+:root {
+   
+        --blanco: #fff;
+}
+
+
+body {
+    
+   
+
+    background-image: url("imagenes/rosas.png");
+       background-color: var(--blanco);
+       
+    font-family: arial, Helvetica, sans-serif;
+    max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+    
+}
+
+/*
+    ------------ CABECERA ------------
+*/
+
+
+.cabecera {
+
+    background-color:var(--blanco);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+       
+  }
+
+ 
+.cabecera-titulo {
+    color: pink;
+    font-family: 'Colonna MT', Courier, monospace;
+    padding: 40px;
+
+}
+
+/*
+    ------------ NAVEGACIÓN ------------
+*/
+
+.nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.nav-lista {
+    
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista_item-link {
+   
+   border-right: 1px solid purple;
+   display: block;
+   padding: 5px 12px;
+   text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+.nav-lista_item-link:hover {
+    background-color: rgba(199, 21, 134, 0.288);
+    text-decoration: underline;
+}
+
+
+ /*
+-----------slider-------
+*/
+
+.slider {
+      
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+ /*
+    ------------ CONTENIDO ------------
+*/
+
+.contenido{
+    
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:var(--blanco)
+}
+
+h2{
+    background-color: pink;
+    text-align: center;
+    font-family: 'Harrington', Courier, monospace;
+    padding: 20px;
+
+}
+
+.especial {
+
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    object-fit: cover;
+    object-position: bottom right;
+    margin-bottom: 40px;
+    
+}
+
+
+ /*
+-----------tratamientos ------
+*/
+.tratamientos-titulo{
+    margin-bottom: 120px;
+   
+      
+}
+.tratamientos-info { 
+
+        font-family: 'Franklin Gothic Medium', Courier, monospace;
+         display: flex;
+         gap: 60px;
+ 
+
+}
+
+/*-------newletter-----*/
+
+.newsletter{
+    background-image: linear-gradient(var(--blanco) 70%,pink);
+    margin-bottom: 400px;
+    margin-top: 100px;
+    padding: 8px 32px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.news-info {
+    padding-left: 32px;
+}
+
+.news-form {
+    flex-grow: 1;
+    text-align: right;
+}
+
+/*-------navegador musica-----*/
+
+.ocultar{
+    display: flex;
+}
